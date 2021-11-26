@@ -1,0 +1,18 @@
+name: example
+
+dependencies:
+  hive: any
+
+dev_dependencies:
+  hive_generator: any
+  build_runner: any
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependency_overrides:
+  hive:
+    path: ../
+#  hive_generator:
+#    git:
+#      url: https://github.com/kumsumit/hive_generator.git
